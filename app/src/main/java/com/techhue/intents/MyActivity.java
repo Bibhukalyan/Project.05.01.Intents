@@ -3,6 +3,7 @@ package com.techhue.intents;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
@@ -13,14 +14,19 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.style.TtsSpan;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -34,6 +40,8 @@ public class MyActivity extends Activity {
     final boolean somethingWeird = true;
     final boolean itDontLookGood = true;
     RecyclerView rvHorseList,rvGunList;
+    TextView textView;
+    StringBuilder stringBuilder = new StringBuilder();
 
     private void explicitlyStartingAnActivity() {
         /**
@@ -92,11 +100,25 @@ public class MyActivity extends Activity {
      * Listing 5-4: Implicitly starting a sub-Activity for a result
      */
     private static final int PICK_CONTACT_SUBACTIVITY = 3;
+    private static final int MY_PERMISSIONS_REQUEST_READ_CONTACTS = 4;
 
     private void startSubActivityImplicitly() {
-        Uri uri = Uri.parse("content://contacts/people");
-        Intent intent = new Intent(Intent.ACTION_PICK, uri);
-        startActivityForResult(intent, PICK_CONTACT_SUBACTIVITY);
+        //Uri uri = Uri.parse("content://contacts/people");
+        /*Intent intent = new Intent(Intent.ACTION_PICK*//*, uri*//*);
+        intent.setType(ContactsContract.Contacts.CONTENT_TYPE);
+        startActivityForResult(intent, PICK_CONTACT_SUBACTIVITY);*/
+
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.READ_CONTACTS)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.READ_CONTACTS},
+                    MY_PERMISSIONS_REQUEST_READ_CONTACTS);
+        } else {
+            Intent intent = new Intent(Intent.ACTION_PICK);
+            intent.setType(ContactsContract.Contacts.CONTENT_TYPE);
+            startActivityForResult(intent, PICK_CONTACT_SUBACTIVITY);
+        }
     }
 
     /**
@@ -138,15 +160,31 @@ public class MyActivity extends Activity {
                 if (resultCode == Activity.RESULT_OK){
                     /*selectedGuns.add((GunModel) data.getParcelableExtra(MyOtherActivity.GUN_SELECTED));
                     rvGunList.getAdapter().notifyDataSetChanged();*/
-                    Uri contactData = data.getData();
+                    /*Uri contactData = data.getData();
                     Cursor cursor =  managedQuery(contactData, null, null, null, null);
                     cursor.moveToFirst();
 
                     String number =       cursor.getString(cursor.getColumnIndexOrThrow(ContactsContract.CommonDataKinds.Phone.NUMBER));
                     String name =       cursor.getString(cursor.getColumnIndexOrThrow(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
-                    Toast.makeText(this, "Selected number: "+number+" "+name, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Selected number: "+number+" "+name, Toast.LENGTH_SHORT).show();*/
                     //contactName.setText(name);
                     //contactNumber.setText(number);
+                    Uri contactData = data.getData();
+                    Cursor c = getContentResolver().query(contactData, null, null, null, null);
+                    if (c.moveToFirst()) {
+                        String contactId = c.getString(c.getColumnIndex(ContactsContract.Contacts._ID));
+                        String hasNumber = c.getString(c.getColumnIndex(ContactsContract.Contacts.HAS_PHONE_NUMBER));
+                        String num = "";
+                        if (Integer.valueOf(hasNumber) == 1) {
+                            Cursor numbers = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI, null, ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " = " + contactId, null, null);
+                            while (numbers.moveToNext()) {
+                                num = numbers.getString(numbers.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+                                Log.i(">>number", "onActivityResult: " + num + "" +numbers.getString(numbers.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME)));
+                                stringBuilder.append(num + " "+numbers.getString(numbers.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME)));
+                                textView.setText(stringBuilder);
+                            }
+                        }
+                    }
                 }
 
                 break;
@@ -252,6 +290,8 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+        textView = findViewById(R.id.textview);
+
         Button buttonExplicitStart = (Button) findViewById(R.id.button1);
         buttonExplicitStart.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
@@ -310,5 +350,22 @@ public class MyActivity extends Activity {
         rvGunList = findViewById(R.id.rvGunList);
         rvGunList.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
         rvGunList.setAdapter(new GunListAdapterHorizontal(this,selectedGuns));
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull
+            String permissions[], @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_READ_CONTACTS: {
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                } else {
+                    Intent intent = new Intent(Intent.ACTION_PICK);
+                    intent.setType(ContactsContract.Contacts.CONTENT_TYPE);
+                    startActivityForResult(intent, PICK_CONTACT_SUBACTIVITY);
+                }
+                break;
+            }
+        }
     }
 }

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-80:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\e3decd5bf9fbc8536b88bb6c57360e20\design-28.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\bbf07aa1da9ab954374e693dfcc335b9\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\59df75d251431efe4d450d41cc6b083b\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
@@ -35,9 +35,9 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Bibhukalyan\.gradle
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\6104c576404b17797d5f42ae60105d1d\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\525bf97e52a2b96ba94f7509a71e8a56\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-80:12
+INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:2:1-80:12
 	package
 		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml
@@ -68,8 +68,12 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
 		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:12:5-72
+	android:name
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:12:22-69
 application
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:13:5-77:19
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:14:5-78:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\e3decd5bf9fbc8536b88bb6c57360e20\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\e3decd5bf9fbc8536b88bb6c57360e20\design-28.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:5-94
@@ -81,107 +85,107 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Bibhukalya
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Bibhukalyan\.gradle\caches\transforms-2\files-2.1\dd1cf78f22bdd94f550130b281f27c97\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:14:9-45
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:15:9-45
 activity#com.techhue.intents.MyBlogViewerActivity
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:21:9-35:20
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:22:9-36:20
 	android:process
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:22:13-48
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:23:13-48
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:21:19-55
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:22:19-55
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:blog.techhue.com+data:scheme:http
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:25:13-34:29
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:26:13-35:29
 action#android.intent.action.VIEW
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:28:17-76
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:28:27-73
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:29:27-73
 category#android.intent.category.BROWSABLE
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:29:17-78
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:30:17-78
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:29:27-75
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:30:27-75
 data
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:31:17-33:45
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:32:17-34:45
 	android:host
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:32:21-52
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:33:21-52
 	android:scheme
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:33:21-42
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:34:21-42
 	android:mimeType
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:42:23-68
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:43:23-68
 activity#com.techhue.intents.NostromoController
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:38:9-47:20
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:39:9-48:20
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:38:19-53
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:39:19-53
 intent-filter#action:name:com.pad.nostromo.NUKE_FROM_ORBIT+category:name:android.intent.category.ALTERNATIVE+category:name:android.intent.category.SELECTED_ALTERNATIVE+data:mimeType:vnd.moonbase.cursor.item/*
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:39:13-46:29
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:40:13-47:29
 	android:label
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:39:28-67
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:40:28-67
 action#com.pad.nostromo.NUKE_FROM_ORBIT
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:40:17-75
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:41:17-75
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:40:25-72
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:41:25-72
 category#android.intent.category.ALTERNATIVE
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:44:17-80
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:45:17-80
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:44:27-77
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:45:27-77
 category#android.intent.category.SELECTED_ALTERNATIVE
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:45:17-89
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:46:17-89
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:45:27-86
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:46:27-86
 receiver#com.techhue.intents.MyReceiver
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:49:9-53:20
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:50:9-54:20
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:49:19-45
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:50:19-45
 intent-filter#action:name:com.paad.intents.MyReceiverAction
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:50:13-52:29
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:51:13-53:29
 action#com.paad.intents.MyReceiverAction
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:51:17-76
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:52:17-76
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:51:25-73
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:52:25-73
 activity#com.techhue.intents.SelectHorseActivity
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:55:9-57:44
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:56:9-58:44
 	android:label
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:57:13-41
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:58:13-41
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:56:13-48
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:57:13-48
 activity#com.techhue.intents.SelectGunActivity
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:58:9-60:42
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:59:9-61:42
 	android:label
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:60:13-39
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:61:13-39
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:59:13-46
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:60:13-46
 activity#com.techhue.intents.MyOtherActivity
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:61:9-63:46
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:62:9-64:46
 	android:label
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:63:13-43
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:64:13-43
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:62:13-44
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:63:13-44
 activity#com.techhue.intents.MyActivity
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:64:9-72:20
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:65:9-73:20
 	android:label
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:66:13-45
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:67:13-45
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:65:13-39
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:66:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:67:13-71:29
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:68:13-72:29
 action#android.intent.action.MAIN
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:68:17-69
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:69:17-69
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:68:25-66
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:69:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:70:17-77
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:71:17-77
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:70:27-74
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:71:27-74
 activity#com.techhue.intents.DeviceStateActivity
-ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:73:9-76:20
+ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:74:9-77:20
 	android:label
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:75:13-41
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:76:13-41
 	android:name
-		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:74:13-48
+		ADDED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml:75:13-48
 uses-sdk
 INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Users\Bibhukalyan\Accenture\Android.Code3\Project.05\Project.05.01.Intents\app\src\main\AndroidManifest.xml
